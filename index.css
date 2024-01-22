@@ -181,7 +181,7 @@ footer {
     background-image: url('./image/bg-01.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 100px 100px 0;
+    padding: 150px 100px 100px 0;
     display: flex;
 
     .img-container {
@@ -332,6 +332,36 @@ footer {
                     line-height: 150%;
                 }
             }
+        }
+    }
+}
+
+/* Talking numbers */
+.talking-numbers-container {
+    padding: 100px 100px 650px;
+    background-image: url('./image/bg-talking-numbers.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .talking-numbers {
+        display: grid;
+        justify-content: left;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        h1 {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--Dark-blue, #1F3864);
+            text-align: center;
+            font-family: Canela;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
         }
     }
 }
