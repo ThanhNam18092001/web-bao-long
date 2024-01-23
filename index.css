@@ -11,11 +11,18 @@ body {
         margin: 0;
     }
 }
-
+header.scrolled {
+    background: white;
+    z-index: 9999;
+    transition: all 0.3s ease-in;
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: all 0.3s ease-in;
 
     .header-menu {
         padding: 10px 0px 10px 100px;
