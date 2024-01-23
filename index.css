@@ -202,7 +202,10 @@ footer {
             position: absolute;
             bottom: -300px;
             left: -200px;
+            animation: rotate 15s linear infinite;
         }
+        
+        
     }
 
     .title {
@@ -230,6 +233,15 @@ footer {
                 line-height: normal;
             }
         }
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
 
@@ -364,4 +376,66 @@ footer {
             line-height: 120%;
         }
     }
+}
+
+/* Commit */
+.commit-container {
+    background-image: url('./image/commit-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 190px 100px;
+}
+
+/* Center */
+.center-container {
+    background-image: url('./image/center-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 100px 400px;
+
+    .title-content-container {
+        width: 60%;
+        display: grid;
+        gap: 40px;
+
+        .title-container {
+            display: grid;
+            gap: 16px;
+
+            h1 {
+                color: var(--White, #FFF);
+                font-family: Canela;
+                font-size: 52px;
+                font-weight: 700;
+                line-height: 140%;
+                margin: 0;
+
+                span {
+                    color: var(--Dark-blue, #1F3864);
+                    font-family: Canela;
+                    font-size: 52px;
+                    font-weight: 700;
+                    line-height: 140%;
+                }
+            }
+
+            .content-container {
+                p {
+                    color: var(--Dark-blue, #1F3864);
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
+
+/* Culture */
+.culture-container {
+    background-image: url('./image/culture-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
 }
