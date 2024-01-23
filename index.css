@@ -16,6 +16,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
 
     .header-menu {
         padding: 10px 0px 10px 100px;
@@ -89,6 +91,7 @@ footer {
     gap: 40px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
     .footer-container {
         display: flex;
@@ -186,7 +189,8 @@ footer {
     background-image: url('./image/bg-01.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 150px 100px 100px 0;
+    background-position: center;
+    padding: 250px 100px 100px 0;
     display: flex;
 
     .img-container {
@@ -255,6 +259,7 @@ footer {
     background-image: url('./image/overview-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 100px;
     display: grid;
     gap: 80px;
@@ -360,6 +365,7 @@ footer {
     background-image: url('./image/bg-talking-numbers.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
     .talking-numbers {
         display: grid;
@@ -389,6 +395,7 @@ footer {
     background-image: url('./image/commit-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 190px 100px;
 }
 
@@ -397,6 +404,7 @@ footer {
     background-image: url('./image/center-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 100px 100px 400px;
 
     .title-content-container {
@@ -442,5 +450,6 @@ footer {
     background-image: url('./image/culture-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 100px;
 }
