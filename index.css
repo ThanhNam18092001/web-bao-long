@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('./font/CanelaText-Medium-Trial.otf') format('Canela'),
+}
+
 body {
     margin: 0;
     position: relative;
@@ -98,7 +103,7 @@ footer {
 
             .title-menu {
                 color: var(--Dark-gold, #8A640C);
-                font-family: Canela;
+                font-family: 'Canela', sans-serif;
                 font-size: 18px;
                 font-weight: 700;
                 line-height: normal;
@@ -123,7 +128,7 @@ footer {
 
             .title-icon {
                 color: var(--Dark-gold, #8A640C);
-                font-family: Canela;
+                font-family: 'Canela', sans-serif;
                 font-size: 18px;
                 font-weight: 700;
                 line-height: normal;
@@ -215,7 +220,7 @@ footer {
 
         p {
             color: var(--Dark-blue, #1F3864);
-            font-family: Canela;
+            font-family: 'Canela', sans-serif;
             font-size: 52px;
             font-style: normal;
             font-weight: 700;
@@ -226,7 +231,7 @@ footer {
                 background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                font-family: Canela;
+                font-family: 'Canela', sans-serif;
                 font-size: 52px;
                 font-style: normal;
                 font-weight: 700;
@@ -269,7 +274,7 @@ footer {
             p {
                 color: var(--Dark-gold, #8A640C);
                 text-align: center;
-                font-family: Canela;
+                font-family: 'Canela', sans-serif;
                 font-size: 24px;
                 font-weight: 500;
                 line-height: 150%;
@@ -278,10 +283,11 @@ footer {
             h1 {
                 color: var(--Dark-blue, #1F3864);
                 text-align: center;
-                font-family: Canela;
+                font-family: 'Canela', sans-serif;
                 font-size: 52px;
                 font-weight: 700;
                 line-height: 120%;
+                margin: 0;
             }
         }
 
@@ -321,7 +327,7 @@ footer {
                     position: absolute;
                     color: var(--Black, #000);
                     text-align: center;
-                    font-family: Canela;
+                    font-family: 'Canela', sans-serif;
                     font-size: 28px;
                     font-weight: 500;
                     line-height: 130%;
@@ -369,7 +375,7 @@ footer {
             align-items: center;
             color: var(--Dark-blue, #1F3864);
             text-align: center;
-            font-family: Canela;
+            font-family: 'Canela', sans-serif;
             font-size: 52px;
             font-style: normal;
             font-weight: 700;
@@ -404,7 +410,7 @@ footer {
 
             h1 {
                 color: var(--White, #FFF);
-                font-family: Canela;
+                font-family: 'Canela', sans-serif;
                 font-size: 52px;
                 font-weight: 700;
                 line-height: 140%;
@@ -412,21 +418,20 @@ footer {
 
                 span {
                     color: var(--Dark-blue, #1F3864);
-                    font-family: Canela;
+                    font-family: 'Canela', sans-serif;
                     font-size: 52px;
                     font-weight: 700;
                     line-height: 140%;
                 }
             }
-
-            .content-container {
-                p {
-                    color: var(--Dark-blue, #1F3864);
-                    font-family: Montserrat;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 150%;
-                }
+        }
+        .content-container {
+            p {
+                color: var(--Dark-blue, #1F3864);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
             }
         }
     }
